@@ -1,0 +1,151 @@
+/* Caden Cruise Semester Final Beginner's Guide to Dark Souls */
+
+html	{background: url(images/4285033.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		}
+
+#wrapper	{background-color: rgba(0,0,0,0.7);
+			color: #FFF;
+			width: 80%;
+			margin-left: auto; margin-right: auto;
+			min-width: 960px;
+			max-width: 2048px;
+			margin-top: 0;
+			}
+
+header	{
+		color: #FFFFFF;
+		height: 50px;
+		padding-top: 20px;
+		padding-bottom: 4em;
+		text-align: center;	
+		margin-top: 40px;
+		} 
+
+.navbar	{overflow: hidden;
+		background-color: #0b0b0b;
+		position: fixed; 
+		top: 0; 
+		width: 100%; 
+		}
+
+.navbar a 	{float: left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			border-right: 1px solid #FFF;
+			}
+
+.navbar a:last-child	{border-right: none;	
+						}
+
+.navbar a:hover {background: #ddd;
+				color: black;
+				}
+				
+h2	{text-align: center;
+	padding-bottom: 1em;
+	}
+
+h3	{border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	
+main	{padding-top: 1px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		}
+		
+dt	{font-weight: bold;
+	text-align: left;
+	padding-left: 3em;
+	padding-bottom: 5px;
+	}
+	
+dd	{padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 4em;
+	text-align: left;
+	}
+	
+footer 	{text-align: center;
+		font-size: 80%; font-family: Times New Roman;
+		padding-left: 3em;
+		padding-right: 3em;
+		padding-bottom: 2em;
+		text-decoration: none;
+		}
+		
+a	{color: #fff;
+	}
+
+
+
+div#centeredmenu	{float:left;
+					width:100%;
+					position:relative;
+					}
+					
+div#centeredmenu ul	{clear:left;
+					float:right;
+					list-style:none;
+					margin:10px 0 0 0;
+					padding:0;
+					position:relative;
+					right:50%;
+					text-align:center;
+					}
+					
+div#centeredmenu ul li	{float:left;
+						list-style:none;
+						margin:0;
+						padding:0;
+						position:relative;
+						left:50%;
+						border-right: 1px solid #fff;
+						}
+						
+div#centeredmenu ul li a 	{padding:3px 10px;
+							}
+
+div#centeredmenu li:last-child	{border-right: none;
+								} 
+
+.prologue	{text-align: center;
+			padding-left: 10em;
+			padding-right: 10em;
+			font-style: italic;
+			}
+
+.closeTag	{text-align: right;
+			padding-right: 11em;
+			}
+
+.main	{text-align: left;
+		margin-left: 3em;
+		margin-right: 3em;
+		}	
+
+.buildList dd	{padding-left: 1em;
+				}
+	
+.buildList p	{padding-left: 1em;
+				padding-top: none;
+				padding-bottom: none;
+				font-size: 90%;
+				text-align: left;
+				}
+				
+.fontBold		{font-weight: bold;
+				}
